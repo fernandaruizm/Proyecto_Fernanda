@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "foto RP",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Esta es una serie de fotos de RP cuando era joven",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Copy right Fernanda Ruiz",
+  "sequences" : [ {
+    "@id" : "http://9ebea908-60ab-4cf4-9b21-4b0478d1528a",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://7a57234e-c33a-4d75-9168-9706903264b1",
+      "@type" : "sc:Canvas",
+      "label" : "foto rp",
+      "height" : 2420,
+      "width" : 1586,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://24769cf6-fa9b-4342-9457-8193f29c115c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/images/IMG_0004/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/images/IMG_0004",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2420,
+          "width" : 1586
+        },
+        "on" : "http://7a57234e-c33a-4d75-9168-9706903264b1"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://fd2e7c1c-a68e-4d72-8daf-742e55d1ad5d",
+      "@type" : "sc:Canvas",
+      "label" : "foto rp1",
+      "height" : 2432,
+      "width" : 3240,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://64fae38a-1909-4872-9c08-8a96d7335714",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/images/IMG_0035/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/images/IMG_0035",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2432,
+          "width" : 3240
+        },
+        "on" : "http://fd2e7c1c-a68e-4d72-8daf-742e55d1ad5d"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}

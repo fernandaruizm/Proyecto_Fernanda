@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://fernandaruizm.github.io/Proyecto_Fernanda/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in fernandaruizm/Proyecto_Fernanda project"
+        ]
+    },
+    "items": []
+}

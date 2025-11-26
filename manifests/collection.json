@@ -1,0 +1,13 @@
+{
+  "id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in fernandaruizm/Proyecto_Fernanda project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/manifests/manifest.json",
+    "label" : "foto RP"
+  } ]
+}

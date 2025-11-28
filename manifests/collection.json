@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/manifests/manifest_RP.json",
     "label" : "Primer manifiesto"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/manifests/manifest_RP2.json",
+    "label" : "Primer manifiesto"
   } ]
 }

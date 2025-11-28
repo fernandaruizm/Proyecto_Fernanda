@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/manifests/manifest.json",
     "label" : "foto RP"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/manifests/manifest_RP.json",
+    "label" : "Primer manifiesto"
   } ]
 }

@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://fernandaruizm.github.io/Proyecto_Fernanda/annotations/b3077b216fdfc151161feccf26b09ee2.json" ],
+  "otherContent" : [ "https://fernandaruizm.github.io/Proyecto_Fernanda/annotations/b3077b216fdfc151161feccf26b09ee2.json", "https://fernandaruizm.github.io/Proyecto_Fernanda/annotations/manifest_RP2.json" ],
   "@id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/annotations/collection.json",
   "label" : "All annotations loaded in fernandaruizm/Proyecto_Fernanda project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"

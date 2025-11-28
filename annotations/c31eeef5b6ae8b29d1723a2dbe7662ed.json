@@ -1,0 +1,43 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Raúl Prebisch",
+      "@type" : "oa:Tag",
+      "chars" : "Raúl Prebisch"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Primer plano de Ra&uacute;l Prebisch",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Primer plano de Ra&uacute;l Prebisch</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/20045776",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2025-11-28T14:19:51",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1764339591413",
+    "dcterms:modified" : "2025-11-28T14:19:51",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/manifests/manifest_RP2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=76,64,324,352"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M123.68579,115.20578c29.94995,-29.55768 72.19922,-51.56829 114.65322,-51.54199v0v0c42.454,0.0263 79.43856,20.61686 114.65322,51.54199c35.21466,30.92513 48.90215,78.04906 47.49092,124.43338c-1.41123,46.38432 -17.92119,92.02904 -47.49092,124.43338c-29.56973,32.40434 -72.19922,51.56829 -114.65322,51.54199c-42.454,-0.0263 -84.73251,-19.24284 -114.65322,-51.54199c-29.92071,-32.29915 -47.48361,-77.6809 -47.49092,-124.43338c-0.00731,-46.75248 17.54096,-94.8757 47.49092,-124.43338z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_9396d7f5-3402-441e-9531-85b8a2456974\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://3c457581-bfee-483c-a7ae-e0e2511d1314"
+    } ]
+  } ],
+  "@id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/annotations/c31eeef5b6ae8b29d1723a2dbe7662ed.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}

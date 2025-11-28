@@ -1,0 +1,85 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://fernandaruizm.github.io/Proyecto_Fernanda/annotations/manifest_RP2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Primer manifiesto",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://7e03a52b-a854-4103-ade3-7da879504790",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://3c457581-bfee-483c-a7ae-e0e2511d1314",
+      "@type" : "sc:Canvas",
+      "label" : "Raúl Prebisch",
+      "height" : 588,
+      "width" : 511,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e32340c9-c881-4b9c-ae0d-7aff585b237d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/raul-prebisch-1954_202511%2fRaul_Prebisch_1954.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/raul-prebisch-1954_202511%2fRaul_Prebisch_1954.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 300468,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 588,
+          "width" : 511
+        },
+        "on" : "http://3c457581-bfee-483c-a7ae-e0e2511d1314"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://a038609a-0a53-4067-9359-2dd78ec1ac35",
+      "@type" : "sc:Canvas",
+      "label" : "Raúl Prebisch",
+      "height" : 3392,
+      "width" : 4600,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a6af69db-52fa-4249-93c4-cd2fcfca60d9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/raul-prebisch%2fRaul_prebisch.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/raul-prebisch%2fRaul_prebisch.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 15603200,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3392,
+          "width" : 4600
+        },
+        "on" : "http://a038609a-0a53-4067-9359-2dd78ec1ac35"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
